@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {	
+	  "verbatimModuleSyntax": true,
+	  "baseUrl": "../xapp",
+	  "moduleResolution": "node",
+	  "module": "esnext",
+	  "target": "esnext",
+	  "jsx": "react",
+	  "declaration": true,
+	  "declarationDir": "../xapp/dist",
+	  "isolatedModules": true,
+	  "resolveJsonModule": true,
+	  "sourceMap": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "allowSyntheticDefaultImports": true,
+	  "allowJs": true,
+	  "strict": true
+	},
+	/**
+	 * Use global.d.ts instead of compilerOptions.types
+	 * to avoid limiting type declarations.
+	 */
+	"include": ["../xapp/src/**/*.d.ts", "../xapp/src/**/*.js", "../xapp/src/**/*.ts", "../xapp/src/**/*.svelte","../xapp/src/**/*.jsx"],
+	"exclude": ["../xapp/node_modules"]
+  }

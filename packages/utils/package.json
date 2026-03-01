@@ -1,0 +1,10 @@
+{
+  "name": "@xapputils/utils",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@xapputils/eslint-config": "workspace:*"    
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
