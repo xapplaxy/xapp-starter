@@ -1,0 +1,38 @@
+apiVersion: xapplaxy.com/v1alpha1
+kind: Widget
+metadata:
+  name: xapp-starter
+  title: Xapp Starter
+  description: XAPP Starter template.
+spec:
+  type: library
+  lifecycle: active
+  owner: xaeditor
+  pathKey: BjGaYTlI
+---
+apiVersion: xapplaxy.com/v1alpha1
+kind: Page
+metadata:
+  name: xapp-starter
+  title: XAPP Starter SEO Template
+  description: XAPP Starter SEO Description
+  publishedDate: "2026-01-31T12:00:00"
+  staus: published
+  tags: []
+  links:
+    - url: https://www.petmd.com/dog/general-health/how-old-is-my-dog-in-human-years
+      title: How Old Is My Dog in Human Years 
+spec:
+  type: xapp
+  category: utility
+  layout: oneblock
+  languages: ["en"]  
+  lifecycle: active
+  owner: xaeditor
+  cover: false
+  excerpt: "This is a samll part of the doc"
+  widgets:
+  - xapp-starter
+  vendorLibs: []
+  contributors: []
+---
