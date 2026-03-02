@@ -1,4 +1,5 @@
 <script lang="ts">
+  import type { DateValue } from "@internationalized/date";
 	import {
 		XyLabel,
 		XySelect,
@@ -30,8 +31,18 @@
 	let fruit = $state<string>('apple');
 	let chkgrp = $state<string[]>(['apple']);
 	let radiogrp = $state<string>('');
-	let toggle = $state<"Y"|"N">('N')
-	let dateValue = $state<DateValue>()
+	let toggle = $state<"Y"|"N">('N');
+	let dateValue = $state<DateValue>();
+
+  export function copy() {
+    if(1===1){
+      const txt = "Copy text here";
+      copyToClipboard(txt);
+      return true;
+    }else {
+      return false;
+    }   
+  }
 </script>
 
 <div class="xa-calculator-container">  

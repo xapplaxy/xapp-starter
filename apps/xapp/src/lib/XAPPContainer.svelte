@@ -8,9 +8,9 @@
 		CopyControlButton		
 	} from '@xapplaxy/xy-ui';
 	import { getMiniAppData } from './utils';
-	import Calculator from './Calculator.svelte';
+	import XAPP from './XAPP.svelte';
 
-	let calculatorRef=$state<Calculator>();
+	let xappRef=$state<XAPP>();
 
 	// State variables using Svelte 5 runes
 	let { appId } = $props();
@@ -21,7 +21,7 @@
 			label: 'Copy',
 			actionStatus: 'Copied',
 			action: () => {
-				return calculatorRef?.copy();
+				return xappRef?.copy();
 			}
 		},
 		{
@@ -48,7 +48,7 @@
 			</XappControls>
 		{/snippet}		
 		<div class="flex {appId}">	
-			<Calculator bind:this={calculatorRef}></Calculator>
+			<XAPP bind:this={xappRef}></XAPP>
 		</div>
 	</XappContainer>
 </Xapp>
