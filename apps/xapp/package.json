@@ -69,7 +69,7 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@xapplaxy/xy-ui": "file:../../../../../localregistry/@xapplaxy/xy-ui/xapplaxy-xy-ui-0.0.27.tgz",
+		"@xapplaxy/xy-ui": "^1.0.0",
 		"@xapputils/utils": "workspace:*"
 	}
 }
