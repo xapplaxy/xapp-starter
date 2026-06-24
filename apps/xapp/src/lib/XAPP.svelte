@@ -53,12 +53,12 @@
     </div>
     <div class="xy-form-control">
       <XyAccordion class="w-full" type="single" value={"test"}>
-        <XyAccordionItem class="group shadow-md rounded-t mb-0.5" activeClasses="bg-green-500" title="test" value={"test"}>
+        <XyAccordionItem class="xa-accordion-item" activeClasses="bg-green-500" title="test" value={"test"}>
           <XyAccordionContent class="p-1" duration={200}>
             <p>Test is always test</p>
           </XyAccordionContent>
         </XyAccordionItem>
-        <XyAccordionItem class="group shadow-md rounded-t mb-0.5" title="test1" value={"test1"}>
+        <XyAccordionItem class="xa-accordion-item" title="test1" value={"test1"}>
           <XyAccordionContent class="p-1" duration={200}>
             <p>Test is always test</p>
           </XyAccordionContent>
