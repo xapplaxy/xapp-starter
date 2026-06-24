@@ -27,7 +27,6 @@
 		"!dist/**/*.spec.*"
 	],
 	"devDependencies": {
-		"@xapputils/utils": "workspace:*",
 		"@internationalized/date": "^3.8.2",
 		"@lucide/svelte": "^0.525.0",
 		"@playwright/test": "^1.51.0",

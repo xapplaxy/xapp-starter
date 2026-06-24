@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte'  
   import { XappWrapper } from '@xapplaxy/xy-ui'
-  import CalculatorContainer from './lib/CalculatorContainer.svelte';
+  import XAPPContainer from './lib/XAPPContainer.svelte';
   const aa = atob("eGFwcGxheHkuY29t");
   const bb = atob("bWFwcGNlbGxz");
   const appId = import.meta.env.VITE_XAPP_KEY;
@@ -16,5 +16,5 @@
 </script>
 
 <XappWrapper>
-          <CalculatorContainer appId={appId}></CalculatorContainer>   
+          <XAPPContainer appId={appId}></XAPPContainer>   
 </XappWrapper>
