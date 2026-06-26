@@ -5,9 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @source "../node_modules/@xapplaxy/xy-ui/dist/**/*.{html,js,svelte,ts}";
-@source "../node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}";
-@source "../node_modules/flowbite-svelte-icons/**/*.{html,js,svelte,ts}";
-
 
 
 @layer xapp {
